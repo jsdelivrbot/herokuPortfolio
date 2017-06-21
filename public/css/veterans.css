@@ -1,0 +1,44 @@
+/* video of dc */
+#dcVideo {
+  max-width: 100%;
+  height: auto;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+/* mobile video of dc */
+@media only screen and (max-width: 375px) {
+    #dcVideo {
+      width: 100%;
+    }
+}
+/* video of dc header and image header*/
+.dcHeader, #imgHeader{
+  text-align: center;
+}
+/* image header */
+#imgHeader{
+  margin-top: 50px;
+}
+/* flickr link */
+#imgLink{
+  color: blue;
+}
+/* vets button to website */
+.vetsButton{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/* vets link to website */
+#vetsLink{
+  text-decoration: none;
+}
+#imgLink:hover{
+  color: blue;
+  text-decoration: underline;
+}
+#imgLink:focus{
+  color: blue;
+  text-decoration: underline;
+}

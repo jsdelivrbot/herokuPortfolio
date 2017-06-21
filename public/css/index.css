@@ -1,0 +1,48 @@
+.projectImg{
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 5px #888888;
+}
+.btn-success {
+  margin-bottom: 83px;
+}
+.btn{
+  border-radius: 74px;
+}
+@media only screen and (min-width:992px){
+  .projectImg {
+    margin-bottom: 125px;
+  }
+}
+.hide_me{
+  opacity:0;
+}
+.visible{
+  opacity:1;
+}
+.post{
+  -webkit-backface-visibility: hidden;
+}
+#headerContainer {
+  position: relative;
+  margin-bottom: 90px;
+}
+#headerText {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+}
+#headerTopText{
+  text-decoration: none;
+  color: white;
+
+}
+#headerImg { 
+  width: 100%;
+  height: 100vh;
+}
+#headerTyping, #headerTyping:hover , #headerTyping:active #headerTyping:focus #headerTyping:visited{
+  color: white;
+  text-decoration: none;
+}

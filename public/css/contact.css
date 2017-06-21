@@ -1,0 +1,27 @@
+/* wrapping contact to get custom background color */
+#contactWrap{
+  background-color: whitesmoke;
+}
+/* spacing for contact info */
+#contactSpacing{
+  margin-left: 20px;
+}
+/* header for contact */
+#contactHeader{
+  color: black;
+}
+/* contact icon */
+.contactIcon{
+  float: left;
+  margin-top: -6px;
+  margin-right: 20px;
+  color: black;
+}
+/* contact link */
+.contactLink{
+  text-decoration: underline;
+  color: black;
+}
+.contactLink:hover{
+  color: grey;
+}

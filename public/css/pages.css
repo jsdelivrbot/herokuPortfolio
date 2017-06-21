@@ -1,0 +1,14 @@
+/* project img */
+.projectImg {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 5px #888888;
+}
+/* changing button radius*/
+.btn{
+  border-radius: 74px;
+}
+/* visit site button */
+.btn-success {
+  margin-bottom: 83px;
+}

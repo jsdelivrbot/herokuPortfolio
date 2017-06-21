@@ -2,65 +2,223 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- custom google font -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <!-- navbar css -->
+  <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+  <!-- index css -->
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <!-- animate css -->
+  <link rel="stylesheet" type="text/css" href="/css/animate.css">
+  <!-- contact css -->
+  <link rel="stylesheet" type="text/css" href="/css/contact.css">
+  <!-- font awesome cdn -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
 
   <% include ../partials/nav.ejs %>
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Getting Started with Node on Heroku v1.0 dev branch</h1>
-    <p>This is a sample Node application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started with Node</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+<div id="home">
+</div>
+
+<div id="headerContainer">
+  <img src="img/austin.jpg" id="headerImg">
+  <div id="headerText">
+    <h1 id="headerTopText">Hello, I'm Zachariah a front-end developer</h1>
+    <h2>
+      <a href="" class="typewrite" id="headerTyping" data-period="2000" data-type='[ "who works with", "Html, Css, Javascript, Jquery, Bootstrap and Angular" ]'>
+        <span class="wrap"></span>
+      </a>
+    </h2>
   </div>
 </div>
+
 <div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs" class="alert-link">Getting Started with Node on Heroku</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/node-js-getting-started">Heroku Button</a> on the repository.</li>
 
-        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/node-js-getting-started/blob/master/package.json">package.json</a>, creating a deployable slug.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-      </ul>
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg"src="img/glacier.png"/>
     </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
-      <ul>
-        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
-        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-        <ul>
-          <li><code>git clone https://github.com/heroku/node-js-getting-started.git</code> - this will create a local copy of the source code for the app</li>
-          <li><code>cd node-js-getting-started</code> - change directory into the local source code repository</li>
-          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
-          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes">deploy changes</a> to Heroku</li>
-        </ul>
-      </ul>
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started with Node on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-nodejs">Deploying Node Apps on Heroku</a></li>
-      </ul>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>Glacier Project</h1>
+      <h3>Glacier Project was created in order to simulate a landing page. </h3>
+      <a href="glacier.html">
+        <button type="button" class="btn btn-success readMore">Read More</button>
+      </a>
     </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
+  </div><!-- end of row -->
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg"src="img/cake.png"/>
+    </div>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>Ma's Cake's Project</h1>
+      <h3>Ma's Cake's Project was created in order to simulate a bakery website. </h3>
+      <a href="masCakes.html">
+        <button type="button" class="btn btn-success readMore">Read More</button>
+      </a>
+    </div>
+  </div><!-- end of row -->
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg" src="img/dj.jpg"/>
+    </div>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>The Dj project</h1>
+      <h3>The Dj project was built in order to add to my portfolio.</h3>
+      <a href="djRock.html">
+        <button type="button" class="btn btn-success readMore">Read More</button>
+      </a>
+    </div>
+  </div><!-- end of row -->
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg" src="img/foodChain.png"/>
+    </div>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>Block-Chain Hackathon</h1>
+      <h3>Engaged in Block-Chain Hackathon to create a project to change the food-chain using block-chain.</h3>
+      <a href="foodMatrix.html">
+        <button type="button" class="btn btn-success readMore">Read More</button>
+      </a>
+    </div>
+  </div><!-- end of row -->
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg"src="img/1.png"/>
+    </div>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>Web Developer Internship</h1>
+      <h3>In the Summer of 2016, I was a web developer intern, at a cloud company. During the internship...</h3>
+      <a href="internship.html">
+        <button type="button" class="btn btn-success readMore">Read More</button>
+      </a>
+    </div>
+  </div><!-- end of row -->
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg" src="img/touse.png"/>
+    </div>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>ATX Hack For Change</h1>
+      <h3>
+        There are homeless people on every corner in austin. My mission with touse was to give the homeless a temporary place called home. The hackathon lasted for three days.
+      </h3>
+      <a href="touse.html">
+        <button type="button" class="btn btn-success">Read More</button>
+      </a>
+    </div>
+  </div> <!-- end of row -->
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg"src="img/cars.png"/>
+    </div>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>1st-class-cars project</h1>
+      <h3>
+        1st-class-cars was inspired by having an eye for car's.
+      </h3>
+      <a href="cars.html">
+        <button type="button" class="btn btn-success">Read More</button>
+      </a>
+    </div>
+  </div> <!-- end of row -->
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg"src="img/vet.png"/>
+    </div>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>VA Hackathon for Veterans with PTSD</h1>
+      <h3>
+        My team was successful in winning a Hackathon hosted by Veterans Affairs. I then went on to W...
+      </h3>
+      <a href="veterans.html">
+        <button type="button" class="btn btn-success">Read More</button>
+      </a>
+    </div>
+  </div> <!-- end of row -->
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg" src="img/dreamCalculator.png"/>
+    </div>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>Dream Calculator</h1>
+      <h3>
+        The Dream Calculator is a project created to see how much of my free time is actually used, to follow my dreams.
+      </h3>
+      <a href="dreamCalculator.html">
+        <button type="button" class="btn btn-success">Read More</button>
+      </a>
+    </div>
+  </div> <!-- end of row -->
+
+  <div class="row">
+    <div class="col-lg-8 col-md-8">
+      <img class="img-responsive projectImg" src="img/fatAlbert.png"/>
+    </div>
+    <div class="col-lg-4 col-md-4 info">
+      <h1>Galvanize Hackathon</h1>
+      <h3>
+        Participated in my very first hackathon that lasted a few hours, and won.
+      </h3>
+      <a href="fatAlbert.html">
+        <button type="button" class="btn btn-success">Read More</button>
+      </a>
+    </div>
+  </div> <!-- end of row -->
+</div><!-- end of container -->
+<!-- creating contact link for navbar -->
+<div id="contact">
+</div>
+<div id="contactWrap">
+  <div class="container">
+    <!-- contact header -->
+    <h2 id="contactHeader">Contact Information</h2>
+    <div id="contactSpacing">
+      <!-- linkedin contact -->
+      <div>
+        <i class="fa fa-linkedin fa-3x contactIcon"></i>
+        <h2 class="contactInfo">
+          <a class="contactLink" href="https://www.linkedin.com/in/zachariah-col-a5a010123">Linkedin</a>
+        </h2>
+      </div>
+      <!-- github contact -->
+      <div>
+        <i class="fa fa-github fa-3x contactIcon"></i>
+        <h2 class="contactInfo">
+          <a class="contactLink" href="https://github.com/zach-col/">GitHub</a>
+        </h2>
+      </div>
+    </div>
   </div>
 </div>
 
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- header text js -->
+    <script src="js/headerText.js"></script>
+    <!-- viewport checker -->
+    <script src="js/jquery.viewportchecker.min.js"></script>
+    <!-- fade in scrolling effect -->
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- smooth scroll -->
+    <script src="js/smoothScroll.js"></script>
+    <!-- navbar script to close nav if you click link id -->
+    <script src="js/navbar.js"></script>
 
 </body>
 </html>

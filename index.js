@@ -23,6 +23,10 @@ app.get('/contact', function(request, response) {
   response.render('pages/contact');
 });
 /* glacier route*/
+app.get('/lifeCoach', function(request, response) {
+  response.render('pages/lifeCoach');
+});
+/* glacier route*/
 app.get('/glacier', function(request, response) {
   response.render('pages/glacier');
 });

@@ -14,7 +14,7 @@ var experienceHeader = "Experience";
 /* creating experience title */
 var experienceTitle = "DoubleHorn - Web Developer Intern";
 /* creating experience date */
-var experienceDate = "June 2016- August 2016 - 3 month's";
+var experienceDate = "June 2016- August 2016";
 /* creating experience info */
 var experienceInfo = "Worked with Senior Engineers on small internal AngularJS application creation and maintenance. Extensive use of bootstrap and leading web frameworks. Experience with Linux CLI for setup of development environments and Apache and Nginx.";
 
@@ -36,7 +36,7 @@ var education = [
 ];
 
 /* creating volunteer header */
-var volHeader = "Volunteer";
+var volHeader = "Volunteer Work";
 /* creating volunteer title */
 var volTitle = "The Iron Yard Teaching Assistant";
 /* creating volunteer date */
@@ -94,12 +94,12 @@ for (var i = 0; i < education.length; i++) {
 
 
 /* creating acheived header */
-var acheivedHeader = "Acheivment's";
+var acheivedHeader = "Achievement's";
 
 /* creating education */
 var acheived = [
   {
-    title:"Veterans Affairs Hackathon",
+    title:"Veterans Affairs Hackathon At Capital Factory",
     date:"February 19-21, 2016",
     info: "Attended second Hackathon and won $3,000, traveled to Washington D.C, and pitched my idea to Veteran Affair's."
   },

@@ -23,6 +23,10 @@ app.get('/contact', function(request, response) {
   response.render('pages/contact');
 });
 /* glacier route*/
+app.get('/onePage', function(request, response) {
+  response.render('pages/onePage');
+});
+/* glacier route*/
 app.get('/lifeCoach', function(request, response) {
   response.render('pages/lifeCoach');
 });

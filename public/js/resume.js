@@ -1,9 +1,9 @@
 /* --------------------------------- creating data */
 
 /* creating name*/
-var name = 'Zachariah col';
+var name = 'Zachariah Col';
 /* creating address */
-var address = "Austin Texas";
+var address = "Austin, Texas";
 /* creating current education header */
 var currentEduHeader = "Current Education";
 /* creating current education info */
@@ -14,7 +14,7 @@ var experienceHeader = "Experience";
 /* creating experience title */
 var experienceTitle = "DoubleHorn - Web Developer Intern";
 /* creating experience date */
-var experienceDate = "June 2016- August 2016 . 3 month's";
+var experienceDate = "June 2016- August 2016 - 3 month's";
 /* creating experience info */
 var experienceInfo = "Worked with Senior Engineers on small internal AngularJS application creation and maintenance. Extensive use of bootstrap and leading web frameworks. Experience with Linux CLI for setup of development environments and Apache and Nginx.";
 

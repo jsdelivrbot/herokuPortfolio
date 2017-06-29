@@ -17,3 +17,32 @@
 .progress{
   height: 26px;
 }
+/* main header */
+h1{
+  color: black;
+}
+/* main text */
+h2{
+  color: black;
+}
+/* info/dates */
+h3{
+  color: #616161;
+}
+/* make everyting go to center of page */
+body{
+  text-align: center;
+}
+/* custom hr */
+.customHr{
+  color: black;
+  background-color: black;
+  width: 60%;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+/* adding padding to header */
+#currentEduHeader , #experienceHeader ,#volHeader ,#acheivedHeader ,#eduHeader{
+  padding-top: 30px;
+}
